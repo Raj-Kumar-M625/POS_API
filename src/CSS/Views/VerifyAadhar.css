@@ -1,0 +1,19 @@
+.aadharText{
+    width: 300px;
+    margin: 150px;
+}
+
+.hiddenButton{
+    visibility: hidden;
+}
+
+/*mobile*/
+@media only screen and (max-width: 755px) {
+    .aadharDropdown{
+        size: 50px;
+        tab-size: 50px;
+    }
+    .aadharText{
+        width: 100px;
+    }
+}

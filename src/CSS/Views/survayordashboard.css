@@ -1,0 +1,321 @@
+/* laptop*/
+@media only screen and (min-width: 1025px) and (max-width: 1580px) {
+
+
+    .vertical-center .justify-content-center {
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .justify-content-center .card4 {
+        background-color: #5098a7 !important;
+        margin: 0 auto !important;
+        height: 100% !important;
+
+    }
+
+    .justify-content-center .card4 .link1 {
+
+        text-decoration: none !important;
+    }
+
+    .justify-content-center .card4 .link1 .icon1 {
+
+
+        color: white !important;
+        height: 200px !important;
+        width: 100% !important;
+    }
+
+    .justify-content-center .card4 .link1 .title1 {
+
+
+        color: white !important;
+        text-align: center !important;
+
+    }
+
+    .justify-content-center .card5 {
+        background-color: #636998 !important;
+        margin: 0 auto !important;
+        height: 100% !important;
+    }
+
+    .justify-content-center .card5 .link2 {
+
+        text-decoration: none !important;
+    }
+
+    .justify-content-center .card5 .link2 .icon2 {
+
+
+        color: white !important;
+        height: 200px !important;
+        width: 100% !important;
+    }
+
+    .justify-content-center .card5 .title2 {
+
+
+        color: white !important;
+        text-align: center !important;
+
+    }
+
+    .justify-content-center .card6 {
+        background-color: #808bde !important;
+        margin: 0 auto !important;
+
+    }
+
+    .justify-content-center .card6 .link2 {
+
+        text-decoration: none !important;
+    }
+
+    .justify-content-center .card6 .icon3 {
+
+
+        color: white !important;
+        height: 100% !important;
+        width: 100% !important;
+    }
+
+    .justify-content-center .card6 .title3 {
+
+
+        color: white !important;
+        text-align: center !important;
+
+    }
+
+    .title1 {
+        height: 60px !important;
+    }
+
+    .title2{
+        height: 60px !important;
+    }
+
+
+
+
+
+}
+
+/* mobile */
+@media only screen and (max-width: 755px) {
+    .vertical-center .justify-content-center {
+        margin-top: 13%;
+        margin-bottom: 17%;
+    }
+
+    .justify-content-center .card4 {
+        background-color: #5098a7 !important;
+        margin: 0 auto !important;
+        height: 95% !important;
+        width: 45% !important;
+
+
+
+    }
+
+    .justify-content-center .card4 .link1 {
+
+        text-decoration: none !important;
+    }
+
+    .justify-content-center .card4 .link1 .icon1 {
+
+
+        color: white !important;
+        height: 100px !important;
+        width: 100% !important;
+    }
+
+    .justify-content-center .card4 .link1 .title1 {
+
+
+        color: white !important;
+        text-align: center !important;
+
+    }
+
+    .justify-content-center .card5 {
+        background-color: #636998 !important;
+        margin: 0 auto !important;
+        height: 95% !important;
+        width: 45% !important;
+        margin-top: 10px !important;
+
+
+    }
+
+    .justify-content-center .card5 .link2 {
+
+        text-decoration: none;
+    }
+
+    .justify-content-center .card5 .link2 .icon2 {
+
+
+        color: white;
+        height: 100px;
+        width: 100%;
+    }
+
+    .justify-content-center .card5 .title2 {
+
+
+        color: white;
+        text-align: center;
+
+    }
+
+    .justify-content-center .card6 {
+        background-color: #808bde;
+        margin: 0 auto;
+        height: 95%;
+        width: 45%;
+        margin-top: 10px;
+
+
+
+    }
+
+    .justify-content-center .card6 .link2 {
+
+        text-decoration: none;
+    }
+
+    .justify-content-center .card6 .icon3 {
+
+
+        color: white;
+        height: 100px;
+        width: 100%;
+    }
+
+    .justify-content-center .card6 .title3 {
+
+
+        color: white;
+        text-align: center;
+
+    }
+
+    .title1{
+        height: 50px;
+    }
+    .title2{
+        height: 50px;
+    }
+
+
+
+}
+
+/* tab */
+/* @media (min-width: 768px) and (max-width: 1024px) {
+
+    .vertical-center .justify-content-center {
+        margin-top: 13%;
+        margin-bottom: 17%;
+    }
+
+    .justify-content-center .card4 {
+        background-color: #5098a7;
+        margin: 0 auto;
+        height: 95%;
+        width: 90%;
+        margin-left: 50px;
+
+
+
+    }
+
+    .justify-content-center .card4 .link1 {
+
+        text-decoration: none;
+    }
+
+    .justify-content-center .card4 .link1 .icon1 {
+
+
+        color: white;
+        height: 100px;
+        width: 100%;
+    }
+
+    .justify-content-center .card4 .link1 .title1 {
+
+
+        color: white;
+        text-align: center;
+
+    }
+
+    .justify-content-center .card5 {
+        background-color: #636998;
+        margin: 0 auto;
+        height: 95%;
+        width: 90%;
+        margin-top: 10px;
+
+
+    }
+
+    .justify-content-center .card5 .link2 {
+
+        text-decoration: none;
+    }
+
+    .justify-content-center .card5 .link2 .icon2 {
+
+
+        color: white;
+        height: 100px;
+        width: 100%;
+    }
+
+    .justify-content-center .card5 .title2 {
+
+
+        color: white;
+        text-align: center;
+
+    }
+
+    .justify-content-center .card6 {
+        background-color: #808bde;
+        margin: 0 auto;
+        height: 95%;
+        width: 90%;
+        margin-top: 10px;
+
+
+
+    }
+
+    .justify-content-center .card6 .link2 {
+
+        text-decoration: none;
+    }
+
+    .justify-content-center .card6 .icon3 {
+
+
+        color: white;
+        height: 100px;
+        width: 100%;
+    }
+
+    .justify-content-center .card6 .title3 {
+
+
+        color: white;
+        text-align: center;
+
+    }
+
+} */

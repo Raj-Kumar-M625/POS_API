@@ -1,0 +1,47 @@
+@media only screen and (min-width: 1025px) and (max-width: 1580px) {
+
+
+    .col-lg-2 {
+        width: 19.666667% !important;
+        margin-bottom: 15px;
+    }
+    .fromDate{
+        margin-left: -15px;
+        width: 200px !important;
+    }
+    .toDate{
+        margin-left: -15px !important;
+        width: 160px !important;
+    }
+}
+
+@media only screen and (max-width: 755px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .col-lg-2 {
+        width: 102.666667% !important;
+        margin-bottom: 10px;
+
+    }
+
+    /* .mt-1 {
+
+        width: 70rem;
+    } */
+}
+
+/* @media (min-width: 756px) and (max-width: 1024px) {
+
+    .col-lg-2 {
+        width: 84.666667% !important;
+        margin-bottom: 10px;
+
+    }
+
+    .col-3 {
+        width: 125%;
+    }
+
+} */

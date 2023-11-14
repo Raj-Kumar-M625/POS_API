@@ -1,0 +1,92 @@
+.header {
+    font-size: 1rem !important;
+}
+
+
+.breadcrubStyle {
+    text-decoration: none;
+}
+
+.textDecoration {
+    text-decoration: none;
+}
+
+.cursorAllow {
+    cursor: not-allowed;
+    text-decoration: none;
+}
+
+.CardContainer {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.CardContainer2 {
+
+    width: 100%;
+    margin: 0 auto 68px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.checked {
+
+    color: #22E81B;
+    position: absolute;
+
+}
+
+.icon {
+    width: 100% !important;
+    height: 40px !important;
+    color: white;
+}
+
+.submitButton {
+
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: none;
+    font-weight: 500;
+    background: green;
+    box-shadow: 4px 4px 5px #666;
+    cursor: pointer;
+    margin-bottom: 50px;
+
+}
+
+.notAllowedSubmit{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: none;
+    font-weight: 500;
+    background:rgba(98, 167, 108,0.6);
+    box-shadow: 4px 4px 5px #666;
+    cursor: not-allowed;
+    margin-bottom: 50px;
+}
+
+/*laptop*/
+@media only screen and (min-width: 1025px) and (max-width: 1580px) {
+    .header {
+        font-size: 1.1rem !important;
+    }
+
+
+}
+
+/*mobile*/
+@media only screen and (max-width: 755px) {
+    .header {
+        font-size: 0.9rem !important;
+    }
+
+}

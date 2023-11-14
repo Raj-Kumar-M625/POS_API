@@ -1,0 +1,41 @@
+.InvalidUser{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    font-size: xx-large;
+ }
+
+ /* Laptop */
+ @media only screen and (max-width: 755px) {
+    .InvalidUser{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: red;
+        font-size: xx-large;
+     }
+ }
+
+ /* ipad-mini */
+ @media only screen and (min-width: 756px) and (max-width: 1024px) {
+    .InvalidUser{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: red;
+        font-size: large;
+     }
+ }
+
+ /* / mobile / */
+
+ @media only screen and (max-width: 755px) {
+    .InvalidUser{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: red;
+        font-size: medium;
+     }
+ }
